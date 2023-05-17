@@ -42,7 +42,7 @@ pow = chanPower(temp, frex, numfrex, stds);
 
 %% save chanDat over itself to update it with the results of this analysis
 
-
+%your code here
 
 
 
