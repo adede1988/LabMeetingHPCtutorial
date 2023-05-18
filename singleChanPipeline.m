@@ -34,10 +34,23 @@ pow = chanPower(temp, frex, numfrex, stds);
 %% split pow into subsequent hit and miss trials, take the mean across trials, store the results into chanDat
 
 %your code here
+%note: in encoding data col 1 of trial info indicates whether
+%indoor/outdoor was correct: 
+%1 = correct, use this trial
+%2 = incorrect, don't use this trial
+%column 2 indicates: 
+%1 = subsequent hit
+%2 = subsequent miss
 
 %% repeat the process for the retrieval data
 
 % your code here
+%note: in retrieval data col 1 of trial info is as follows: 
+%1 = hit
+%2 = miss
+%3 = CR
+%4 = FA
+%5 = NAN/do not use trial
 
 
 %% save chanDat over itself to update it with the results of this analysis
